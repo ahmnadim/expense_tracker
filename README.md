@@ -30,10 +30,12 @@
    
   ```bash
    npm run prisma:migrate
-```
+
+   ```
    ```bash
    npm run prisma:seed
-```
+
+   ```
 
 4. **RUN the app**
    CD into project root and RUN **npm run dev** Command and that's it. project should be up and running.
