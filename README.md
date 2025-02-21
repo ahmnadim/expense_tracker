@@ -22,11 +22,20 @@
 
 2. **Config prisma**
    prisma:migrate
-   Run **npm run prisma:generate** in the terminal to generate prisma client.
-   Run **npm run prisma:migrate** in the terminal to generate prisma client.
-   Run **npm run prisma:seed** in the termial to run seeder.
+   Run the following commands in the terminal to generate prisma client, database migration and to run seeder.
+   ```bash
+   npm run prisma:generate
+   
+   ```
+   
+  ```bash
+   npm run prisma:migrate
+```
+   ```bash
+   npm run prisma:seed
+```
 
-3. **RUN the app**
+4. **RUN the app**
    CD into project root and RUN **npm run dev** Command and that's it. project should be up and running.
 
 # Project Setup and Run Instructions(Backend)
